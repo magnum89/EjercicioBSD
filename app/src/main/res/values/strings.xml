@@ -12,5 +12,29 @@
     <string name="consult">Revisar BSD</string>
 
     <string name="baseDatos">BSD</string>
+
+    <string name="strTitle">REGISTRO USUARIO</string>
+
+    <string name="strName">Nombre completo :</string>
+    <string name="strFechaNac">Fecha de nacimiento :</string>
+    <string name="strPais">Pais :</string>
+    <string name="strSpeak">Habla ingles :</string>
+    <string name="strSi">Si</string>
+    <string name="strfecha">00/00/0000</string>
+    <string name="strSexo">Sexo</string>
+    <string name="strMan">Hombre</string>
+    <string name="strWoman">Mujer</string>
+    <string name="strReg">Registrar</string>
+    <string name="strCerrar">Cerrar</string>
+    <string name="strNuevo">Nuevo</string>
+    <string name="strLista">Ver universitarios registrados</string>
+    <string name="strDelete">Eliminar</string>
+    <string name="strRegistros">Ver registros</string>
+    <string name="strContenido">Lorem ipsum</string>
+
+    <string name="title_activity_registro">Usuario</string>
+
+    <string name="title_activity_registros">Usuarios</string>
+
 </resources>
 

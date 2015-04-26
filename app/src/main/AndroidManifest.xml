@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".RegistroActivity"
+            android:label="@string/title_activity_registro" >
+        </activity>
+        <activity
+            android:name=".RegistrosActivity"
+            android:label="@string/title_activity_registros" >
+        </activity>
     </application>
 
 </manifest>

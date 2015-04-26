@@ -22,7 +22,7 @@ public class SQLiteHelper extends SQLiteOpenHelper
 
     private final String sql = "CREATE TABLE " + __tabla__ + " ( " +
             __campo_id + " INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, " +
-            __campo_usuario + " TEXT NULL, " + __campo_email + " TEXT, " + " )";
+            __campo_usuario + " TEXT NULL, " + __campo_email + " TEXT " + " )";
 
     /**
      * Constructor de clase
