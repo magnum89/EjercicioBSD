@@ -17,9 +17,9 @@ public class SQLiteHelper extends SQLiteOpenHelper
     public final String __campo_usuario = "Usurio";
     public final String __campo_email = "FechaNac";
 
-    //Instrucci�n SQL para crear las tablas
+    //Instrucción SQL para crear las tablas
 
-	 
+
     private final String sql = "CREATE TABLE " + __tabla__ + " ( " +
             __campo_id + " INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, " +
             __campo_usuario + " TEXT NULL, " + __campo_email + " TEXT, " + " )";
