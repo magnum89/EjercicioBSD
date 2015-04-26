@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LoginBSD</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome">Bienvenido</string>
+    <string name="email">Digite su Correo Electrónico:</string>
+    <string name="user">Digite su Usuario:</string>
+
+    <string name="save">Guardar</string>
+    <string name="consult">Revisar BSD</string>
+
+    <string name="baseDatos">BSD</string>
+</resources>
+
