@@ -1,25 +1,21 @@
 package com.eling.bsdlog;
 
-import java.util.Calendar;
-//
+
 
 import com.eling.bsdlog.db.SQLite;
 //
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-import android.app.DatePickerDialog;
+
 import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.DatePicker;
+
 import android.widget.EditText;
-import android.widget.RadioGroup;
-import android.widget.Spinner;
-import android.widget.TextView;
+
 import android.widget.Toast;
 
 public class ActividadPrincipal extends Activity implements OnClickListener{
@@ -30,7 +26,7 @@ public class ActividadPrincipal extends Activity implements OnClickListener{
     private EditText txtEmail;
 
     private Button btnRegistrar;
-
+    private Button btnCancelar;
     private Button btnRegistros;
 
 
@@ -49,7 +45,8 @@ public class ActividadPrincipal extends Activity implements OnClickListener{
         txtEmail = (EditText) findViewById( R.id.txtEmail );
         btnRegistrar = (Button) findViewById(R.id.btnGuardar );
         btnRegistrar.setOnClickListener( this );
-
+        btnCancelar = (Button) findViewById(R.id.btnExit );
+        btnCancelar.setOnClickListener( this );
         btnRegistros = (Button) findViewById(R.id.btnUsuarios );
         btnRegistros.setOnClickListener( this );
 
@@ -90,6 +87,7 @@ public class ActividadPrincipal extends Activity implements OnClickListener{
                     Toast.makeText(getBaseContext(), "Error: Compruebe que los datos sean correctos"  ,Toast.LENGTH_SHORT).show();
                 }
                 break;
+            case R.id.btnExit: sqlite.cerrar(); finish(); break;
             case R.id.btnUsuarios:
                 Intent iRegs = new Intent( ActividadPrincipal.this, RegistrosActivity.class );
                 startActivity( iRegs );

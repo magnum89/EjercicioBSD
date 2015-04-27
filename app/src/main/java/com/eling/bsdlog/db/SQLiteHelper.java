@@ -10,7 +10,7 @@ public class SQLiteHelper extends SQLiteOpenHelper
     //nombre de la base de datos
     private static final String __DATABASE = "dbBSD";
     //versión de la base de datos
-    private static final int __VERSION = 1;
+    private static final int __VERSION = 4;
     //nombre tabla y campos de tabla
     public final String __tabla__ = "Usuarios";
     public final String __campo_id = "id";
